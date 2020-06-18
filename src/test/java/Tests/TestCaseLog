@@ -1,0 +1,75 @@
+Test Case 1
+-Navigate to "https://www.audiusa.com/"
+-Click view models for
+-Get all the product prices for SUVs & Wagons
+-Select 2020 Q5
+-Validate the car year and Q5 is matching
+-Validate starting price is matching
+-Click Build button
+-Validate three version of car
+    Premium starting at 43,300
+    Premium Plus starting at 47,700
+    Prestige starting at 51,450
+-Validate three version has three different options
+    45 TFSI
+    45 TFSI Titanium
+    55 TFSI e Plug in hybrid
+
+Test Case 2
+-Select Premium Plus 45 TFSI
+-Click Continue button
+-Validate optional equipment is equals to 0
+-Validate Total price is Base price + Destination
+Charge($995 )
+-Highlight Navarra Blue Metallic
+-Validate color name is "Navarra Blue Metallic"
+-Validate exterior color price is "$595"
+-Click Blue Metallic color
+-Validate total price is equals to Color
+Price+MSRP+Destination Charge
+-Click Wheels of Black Optic Package
+-Validate is displayed "Black Optic package $1,300"
+-Validate it is Selected text is displayed in the box
+-Click continue button
+
+Test Case 3
+-Click Warm weather package
+-Verify Optional Equipment price is equals to Color
+Price + Black Option Package Price + Warm weather
+package price
+-Verify Total price is equals to MSRP+Optional
+Equipment + Destination Charge
+-Verify all interior colors prices are equals to $0
+-Verify Decorative Inlays prices are equals to $0
+-Click continue button
+
+Test Case 4
+-Click Add to configuration button for Rear side
+airbags
+-Verify it is selected
+-Click Add to configuration button for Bang&Olufsen
+Sound System
+-Verify it is selected
+-Verify the prices for airbag and sound system are
+added to the optional equipment price
+-Click Continue button
+
+Test Case 5
+-Validate Fork Mount Bike Rack is displayed
+-Validate The price for Bike Rack is $190
+-Validate Audi Interior Cargo Box is displayed
+-Validate the price for cargo box is $60
+-Validate the url contains "accessories"
+-Validate the Url Contains "Accessories"
+-Click Add Configuration for Bike Rack
+-Click Continue button
+
+Test Case 6
+-Validate MSRP price is matching under Selected
+Feature and Inside the Summary
+-Validate Total of selected Equipment price is equals
+to Color Price+ Airbag Price + Black Optic package +
+Warm weather package + Sound System price +
+Bike rack price
+-Validate total price is equals to MSRP + Equipment
+price + Destination Charge
